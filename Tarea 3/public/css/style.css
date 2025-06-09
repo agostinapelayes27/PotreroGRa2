@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body{
+    background-color: azure;
+}
+h1{
+    color: rgb(23, 17, 92);
+    font-family: "Open Sans", sans-serif;
+}
+h2 {
+    color: rgb(35, 144, 145);
+    font-family: "Edu VIC WA NT Hand Pre", cursive;
+}
+
+h3{
+    color: brown;
+    font-family: "Edu SA Hand", cursive;
+}
+
+.titulo_uno{
+    color: rgb(143, 219, 219);
+    font-family: "Edu VIC WA NT Hand Pre", cursive;
+}
+.titulo_dos{
+    color: rgb(179, 111, 173);
+    font-family: "Open Sans", sans-serif;
+}
+.titulo_tres{
+    color: rgb(191, 114, 73);
+    font-family: "Edu SA Hand", cursive;
+}
+.lista_ordenada {
+    color:rgb(219, 207, 206);
+    font-family: "Playfair Display", serif;
+}
+.lista_desordenada {
+    color: rgb(196, 187, 187);
+    font-family: "Playfair Display", serif
+}
+.tit_uno {
+    color: rgb(227, 193, 193);
+    font-family: "Edu SA Hand", cursive;
+}
+.tit_dos {
+    color: rgb(239, 215, 245);
+    font-family: "Open Sans", sans-serif
+}
+.tit_tres {
+    color: rgb(182, 219, 186);
+    font-family: "Playfair Display", serif
+}
+.list_des {
+    color: rgb(155, 182, 224);
+    font-family: "Edu VIC WA NT Hand Pre", cursive
+}
+.list_ord{
+    color: rgb(162, 194, 245);
+    font-family: "Edu VIC WA NT Hand Pre", cursive
+}
