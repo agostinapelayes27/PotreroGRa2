@@ -1,0 +1,116 @@
+/* Paleta de colores pasteles */
+:root {
+  --rosa: #fddde6;
+  --verde: #dff7e2;
+  --lila: #f2e6ff;
+  --texto: #333;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  color: var(--texto);
+  background: #fff;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: var(--texto);
+  background: #fff;
+}
+
+/* NAV */
+header {
+  background: var(--rosa);
+  padding: 1rem;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+.slogan {
+  font-style: italic;
+  margin: 0 0 1rem 0;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+nav a {
+  text-decoration: none;
+  color: var(--texto);
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* SECCIONES */
+section {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+section:nth-child(even) {
+  background: var(--verde);
+}
+
+/* IMÁGENES */
+.img-uniforme {
+  width: 200px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* GRID LIBROS Y NOTICIAS */
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.grid div {
+  background: var(--lila);
+  padding: 1rem;
+  border-radius: 8px;
+  width: 200px;
+}
+
+/* FORMULARIO */
+form {
+  max-width: 400px;
+  margin: 1rem auto;
+  text-align: left;
+}
+input, textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+button {
+  background: var(--rosa);
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background: #fbb5ca;
+}
+
+/* FOOTER */
+footer {
+  background: var(--rosa);
+  text-align: center;
+  padding: 1rem;
+}
